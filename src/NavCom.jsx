@@ -81,6 +81,11 @@ const NavBar = () => {
                 State Lifting
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/SimpleTanstack">
+                Tanstack Query
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

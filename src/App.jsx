@@ -18,6 +18,7 @@ import ReduxToolKitComp from "./componants/ReduxToolKitComp";
 import ToDoComp from "./componants/ToDo";
 import Poll from "./componants/Poll";
 import InputBox from "./componants/InputBox";
+import SimpleTanstack from "./componants/SimpleTanstack";
 
 const UseContextComp = React.lazy(() => import("./componants/CompA"));
 
@@ -58,6 +59,7 @@ function App() {
             path="/InputBox"
             element={<InputBox text={text} setText={setText} />}
           />
+          <Route path="/SimpleTanstack" element={<SimpleTanstack />} />
         </Routes>
       </Suspense>
     </Router>
